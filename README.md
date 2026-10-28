@@ -11,6 +11,30 @@ A simple command-line library management program written in C. It stores book re
 - Return a book
 - Delete a book
 
+## Technologies Used
+
+- **Language:** C
+- **Compiler:** GCC
+- **Interface:** Command line (terminal)
+
+## Concepts Used
+
+- Structures (`struct`)
+- File handling (`fopen`, `fread`, `fwrite`, `fseek`)
+- Functions
+- String handling (`strstr`, `strcpy`, `tolower`)
+- Input validation
+- Menu-driven program using `switch`
+
+## Project Structure
+
+```
+library-management-system/
+├── library.c      # source code
+├── library.dat    # book data (created automatically)
+└── README.md
+```
+
 ## How to Run
 
 Compile the program with GCC:
