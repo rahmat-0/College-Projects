@@ -1,41 +1,55 @@
-# C Quiz Game
+# Library Management System
 
-This is a simple quiz game made using C programming as a college project. It contains 5 multiple-choice questions related to C language.
+A simple command-line library management program written in C. It stores book records in a binary file, so your data stays saved after you close the program.
 
 ## Features
-- Start a quiz
-- Answer questions using A, B, C, or D
-- Calculate score and percentage
-- Display remarks based on the score
-- Save quiz results in a file
-- View previous scores
 
-## Concepts Used
-- Structures
-- Arrays and strings
-- Functions
-- Loops and conditional statements
-- File handling
+- Add a new book
+- Display all books
+- Search books by title or author
+- Issue a book
+- Return a book
+- Delete a book
 
 ## How to Run
 
-1. Install a C compiler like GCC.
-2. Download or clone this repository.
-3. Open CMD in the project folder.
-4. Compile the program:
+Compile the program with GCC:
 
-   ```bash
-   gcc quiz.c -o quiz
-   ```
+```
+gcc library.c -o library
+```
 
-5. Run the program:
+Run it:
 
-   ```cmd
-   quiz.exe
-   ```
+```
+./library
+```
+
+On Windows, run `library.exe` instead.
+
+## Usage
+
+When the program starts, you will see a menu:
+
+```
+===== LIBRARY MANAGEMENT SYSTEM =====
+1. Add Book
+2. Display All Books
+3. Search Book
+4. Issue Book
+5. Return Book
+6. Delete Book
+7. Exit
+```
+
+Type the number of the option you want and press Enter.
+
+## Notes
+
+- Each book needs a unique ID.
+- Book data is saved in `library.dat`, which is created automatically.
+- Search is not case sensitive.
 
 ## Author
 
 Rahmat Ansari
-
-BCA Data Science Student
